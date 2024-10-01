@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
-        args: --follow-symlinks --delete --exclude '.git/*' --include 'index.html'
+        args: --follow-symlinks --delete --exclude '.git/*' --include 'dist/*'
       env:
         SOURCE_DIR: ./
         AWS_REGION: eu-north-1
