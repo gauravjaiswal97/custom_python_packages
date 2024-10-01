@@ -1,0 +1,6 @@
+﻿myvenv/
+build/
+test_trial_ac/
+test_trial_ac.egg-info/
+demo_plot.egg-info/
+demo_plot/
