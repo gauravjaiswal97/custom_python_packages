@@ -16,6 +16,6 @@ jobs:
       env:
         SOURCE_DIR: ./
         AWS_REGION: eu-north-1
-        AWS_S3_BUCKET: ${{ secrets.package_anushree56 }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AKIAYKFQRGF56LJDRDHP }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.qAKnUIiY1X1ONjMtuun1AvmXe+4EtaPGE3TaQwPh }}
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
