@@ -1,6 +1,7 @@
 LICENSE
 README.md
 pyproject.toml
+setup.py
 demo_plot/__init__.py
 demo_plot/functions.py
 demo_plot/version.py
