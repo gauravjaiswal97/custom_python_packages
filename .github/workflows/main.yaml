@@ -1,0 +1,21 @@
+name: Upload Website
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --follow-symlinks --delete --exclude '.git*/*'
+      env:
+        SOURCE_DIR: ./
+        AWS_REGION: eu-north-1
+        AWS_S3_BUCKET: ${{ secrets.package_anushree56 }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AKIAYKFQRGF56LJDRDHP }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.qAKnUIiY1X1ONjMtuun1AvmXe+4EtaPGE3TaQwPh }}
