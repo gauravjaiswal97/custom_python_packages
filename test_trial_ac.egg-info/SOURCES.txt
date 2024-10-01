@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+test_trial_ac/__init__.py
+test_trial_ac/hello_ac.py
+test_trial_ac/version.py
+test_trial_ac.egg-info/PKG-INFO
+test_trial_ac.egg-info/SOURCES.txt
+test_trial_ac.egg-info/dependency_links.txt
+test_trial_ac.egg-info/requires.txt
+test_trial_ac.egg-info/top_level.txt
