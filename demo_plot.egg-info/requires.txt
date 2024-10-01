@@ -1,4 +1,0 @@
-opencv-contrib-python
-plotly>=5.0.0
-numpy
-pandas
