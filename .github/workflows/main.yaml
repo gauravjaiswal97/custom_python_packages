@@ -14,11 +14,11 @@ jobs:
       - uses: jakejarvis/s3-sync-action@master
         with:
           args: --follow-symlinks --delete \
+                --exclude '*' \
                 --include 'dist/*' \
                 --include 'index.html' \
                 --include 'README.md' \
-                --include 'setup.py' \
-                --exclude '*'
+                --include 'setup.py'
         env:
           SOURCE_DIR: ./
           AWS_REGION: eu-north-1
